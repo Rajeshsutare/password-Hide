@@ -10,7 +10,7 @@ const onPassword = (eve) =>{
         password.type = 'text' ;
         eyeIcon.classList.replace('fa-eye-slash','fa-eye')
     }else{
-        password.type === 'password'
+        password.type = 'password'
         eyeIcon.classList.replace('fa-eye','fa-eye-slash')
 
     }
